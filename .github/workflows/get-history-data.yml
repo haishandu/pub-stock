@@ -24,8 +24,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@master
-      with:
-        name: haishandu/au-stock
+        with:
+          name: haishandu/au-stock
           ref: refs/heads/release
   
       # Runs a single command using the runners shell
